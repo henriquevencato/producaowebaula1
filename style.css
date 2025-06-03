@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00140e;
+    color: #ffffff;
+}
+
+
+
+nav ul{
+font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+nav ul li a{ 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+   font-size: large;
+    display: inline-block;
+}
+nav ul li a:hover {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-digital-de-codigo-binario-de-estilo-de-matriz-com-numeros-caindo_1017-25336.jpg?semt=ais_items_boosted&w=740") ;
+     background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+    color: #ffffff;
+}
+
+ * {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+background-image: url("https://img.freepik.com/vetores-gratis/fundo-digital-de-codigo-binario-de-estilo-de-matriz-com-numeros-caindo_1017-25336.jpg?semt=ais_items_boosted&w=740"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
